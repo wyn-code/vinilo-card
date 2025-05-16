@@ -14,7 +14,7 @@ body {
     background-color: var(--primary-color);
 }
 
-div {
+.circules {
     border-style: var(--tw-border-style);
     border-width: 2px;
     border-bottom-color: var(--color-black);
