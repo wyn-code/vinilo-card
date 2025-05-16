@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+    --color-mint-500r: #23262F;
+    --color-secondary-color: #1F222B;
+}
+
+:root {
+    --primary-color: #23262F;
+    --secondary-color: #1F222B;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+div {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
+    border-bottom-color: var(--color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: calc(infinity * 1px);
+    background-color: white;
+}
+
+main {
+    background-color: var(--secondary-color); 
+}
+
